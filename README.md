@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# TextUtils - My First React App from CodeWithHarry's Complete React Course in Hindi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TextUtils is a word counter and a character counting utility which can be used to manipulate your text in the way you want.
+
+The functions are -
+
+1. Word counter.
+2. Character counter.
+3. Minutes Read.
+4. Convert to Uppercase.
+5. Convert to Lowercase.
+6. Speak.
+7. Copy to text.
+8. Remove extra spaces.
+9. Clear
 
 ## Available Scripts
 
@@ -28,6 +40,15 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `Static Server`
+
+For environments using Node, the easiest way to handle this would be to install serve and let it handle the rest:
+
+```
+npm install -g serve
+serve -s build
+```
 
 ### `npm run eject`
 
